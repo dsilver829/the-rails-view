@@ -68,3 +68,12 @@ footer#page_footer {
 
   }
 }
+
+section#content {
+  float: left;
+}
+section#sidebar {
+  float: right;
+  margin-right: -20px;
+  width: 300px;
+}
