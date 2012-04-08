@@ -12,5 +12,6 @@
  *= require normalize
  *= require layout
  *= require sidebar
+ *= require navigation
  *= require_tree .
 */

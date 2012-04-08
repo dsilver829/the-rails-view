@@ -1,0 +1,16 @@
+nav#main_nav {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  
+  line-break: {
+    background: #865140;
+    display: inline-block;
+    margin: 0 2px;
+    padding: 4px 6px;
+    a, a:link, a:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
