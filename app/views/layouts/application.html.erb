@@ -9,9 +9,16 @@
 </head>
 <body>
 
-  <%=  render 'layouts/header' %>
+  <%= render 'layouts/header' %>
+  <%= image_tag("tagline.png",
+                alt: 'Creative File Management Made Easy',
+                id: 'tagline') %>
 
-  <%= yield %>
+  <div class="container">
+    <%= yield %>
+  </div>
+
+  <%= render 'layouts/footer' %>
 
 </body>
 </html>
